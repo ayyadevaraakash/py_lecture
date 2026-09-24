@@ -1,0 +1,34 @@
+# x, y = input().split(' ')
+# print(f"{x} and {y} are awesome")
+
+# x = int(input())
+# y = int(input())
+# z = x + y
+# print(f"Answer is {z}")
+
+# x = float(input())
+# y = float(input())
+# z = x + y
+# print(f"Answer is {z}")
+
+# s = input("Enter your name: ")
+# print(f"Name is {s}")
+
+# n = 10
+
+# for i in range(n):
+#     if i%2 != 0:
+#         continue
+#     print(f"A = {i}")
+
+# for i in range(n):
+#     if i==5:
+#         break
+#     print("Hello")
+    
+# print("World")
+
+# print("Hello\nWorld")
+# print("Hello\tWorld")
+# print("hello\a")
+# print("akash\bh")
