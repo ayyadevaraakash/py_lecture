@@ -1,0 +1,65 @@
+# import numpy as np
+
+# arr = np.logspace(1,4,4,base=2)
+
+# print(arr)
+
+# import numpy as np
+
+# arr = np.linspace(0, 10, 6)
+
+# print(arr)
+
+# import numpy as np
+
+# arr = np.arange(0, 10, 2)
+
+# print(arr)
+
+# import numpy as np
+
+# grid = np.array([
+#         [1, 2, 3],
+#         [4, 5, 9],
+#         [11, 19, 21]
+#     ])
+    
+# print(grid[1][1])
+
+# import numpy as np
+
+# arr = np.array([12, 18, 19, 20])
+# print(arr[2])
+
+# import array as ay
+
+# n = int(input("Number of elements: "))
+# arr = ay.array('i')
+
+# for i in range(n):
+#     x = int(input())
+#     arr.append(x)
+
+# summ = sum(arr)
+# avg = summ / n
+
+# for i in range(n):
+#     summ = summ + arr[i]
+    
+# print(f"sum is {summ} avg is {avg}")
+
+# for i in range(n):
+#     print(arr[i], end=" ")
+
+
+# n = 4
+# arr = ay.array('i', [12, 10, 16, 17])
+# # print(arr)
+# for i in range(n):
+#     print(arr[i], end=" ")
+
+
+# x, y = map(int, input().split(' '))
+# print(x+y)
+
+# x, y = input().split(' ')
