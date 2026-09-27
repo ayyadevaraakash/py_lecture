@@ -1,0 +1,129 @@
+import numpy as np
+
+n = int(input("Rows in A : "))
+m = int(input("Cols in A : "))
+
+A = np.zeros((n,m))
+
+for i in range(n):
+	for j in range(m):
+		val = int(input(f"A[{i}][{j}] = "))
+		A[i][j] = val
+
+p = int(input("Rows in B : "))
+q = int(input("Cols in B : "))
+
+B = np.zeros((p,q))
+
+for i in range(p):
+	for j in range(q):
+		val = int(input(f"B[{i}][{j}] = "))
+		B[i][j] = val
+
+if m==p:
+	print(A @ B)
+else:
+	print("Matrix are incompatible to each other")
+
+# n = int(input("Rows in A : "))
+# m = int(input("Cols in A : "))
+
+# A = np.zeros((n,m))
+
+# for i in range(n):
+# 	for j in range(m):
+# 		val = int(input(f"A[{i}][{j}] = "))
+# 		A[i][j] = val
+
+# p = int(input("Rows in B : "))
+# q = int(input("Cols in B : "))
+
+# B = np.zeros((p,q))
+
+# for i in range(p):
+# 	for j in range(q):
+# 		val = int(input(f"B[{i}][{j}] = "))
+# 		B[i][j] = val
+
+# if n==p and m==q:
+# 	print(A+B)
+# else:
+# 	print("Matrix are incompatible to each other")
+
+
+# A = np.array([
+# 	[1, 2, 3],
+# 	[7, 8, 9]
+# ])
+
+# B = np.array([
+# 	[1, 2],
+# 	[3, 4],
+# 	[5, 6]
+# ])
+
+# C = A @ B
+# print(C)
+
+# mat = np.eye(4)
+# print(mat)
+
+# mat = np.array([
+# 	[1, 2, 3],
+# 	[12, 12, 11]
+# ])
+# arr = mat.flatten()
+# print(arr)
+
+# arr = np.array([1,2,3,4,5,6,7,8,9])
+# mat = arr.reshape(3,3)
+# print(mat)
+# print(mat[1][1])
+
+# arr = np.array([1, 2, 12, 11, 19])
+# # deep copy
+# brr = arr.copy()
+# arr[0] = 99
+# print(arr)
+# print(brr)
+
+# arr = np.array([1, 2, 12, 11, 19])
+# # shallow copy
+# brr = arr.view()
+# arr[0] = 99
+# print(arr)
+# print(brr)
+
+# arr = np.array([1, 0, 8, 0, 10])
+# print(np.nonzero(arr))
+
+# arr = np.array([1, 12, 8, 9, 10])
+# print(np.where(arr >= 10))
+
+# arr = np.array([1, 4, 6, 11, 2])
+# print(np.logical_and(arr > 0, arr < 10))
+
+# arr = np.array([1, 3, 5, 12, 11])
+# print(np.any(arr > 10))
+# print(np.all(arr > 2))
+
+# arr = np.array([1, 2, 4, 9, 3])
+# brr = np.array([3, 5, 1, 9, 2])
+# res = arr > brr
+# print(res)
+
+# arr = np.array([1, 2, 4, 9, 3])
+# brr = np.array([3, 5, 1, 9, 2])
+# crr = arr ** brr
+# print(crr)
+
+# arr = np.array([2, 4, 11, 13, 15])
+# arr = arr // 2
+# print(arr)
+
+# arr = np.array([1, 4, 8, 12, 6])
+
+# print(arr.sum())
+# print(arr.min())
+# print(arr.max())
+# print(arr.mean())
