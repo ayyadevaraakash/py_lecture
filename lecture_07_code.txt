@@ -1,0 +1,42 @@
+# DICTIONARY
+
+# table = {1: 'Akash', 2: 'Yashashree', 3: 'Virat'}
+
+# del table[1]
+
+# print(table)
+
+# n = int(input("Enter the number of students: "))
+
+# for i in range(n):
+#     roll, name = input().split()
+#     table[roll] = name
+
+# print(table)
+
+
+# SET
+# ds = set()
+# ds = {1,2,3,4,5}
+# ds.discard(10)
+# print(ds)
+
+# while True:
+#     user_input = int(input("Enter a number: "))
+#     if user_input == -1:
+#         break
+#     ds.add(user_input)
+
+# print(ds)
+
+# LIST
+# ds = []
+
+# while True:
+#     user_input = int(input("Enter a number: "))
+#     if user_input == -1:
+#         break
+#     ds.append(user_input)
+
+# ds.sort(reverse=True)
+# print(ds)
