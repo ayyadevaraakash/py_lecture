@@ -1,0 +1,19 @@
+from math import isqrt
+
+num = int(input("Enter a number: "))
+
+prime = True
+
+if num < 2:
+    prime = False
+
+limit = isqrt(num)
+for den in range(2,limit+1):
+    if num % den == 0:
+        prime = False
+        break
+
+if prime==True:
+    print("prime number")
+else:
+    print("not a prime number")
