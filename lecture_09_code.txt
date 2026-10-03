@@ -1,0 +1,38 @@
+import numpy as np
+
+a = np.array([
+    [1, 4, 9],
+    [2, 1, 4],
+    [3, 5, 1]
+])
+
+b = a.T
+print(b)
+
+# s = "akash"
+# s = s + " is a boy"
+# print(s)
+
+# s = "akash"
+# s[2] = 'x'
+# print(s)
+
+# from math import isqrt
+
+# num = int(input("Enter a number: "))
+
+# prime = True
+
+# if num < 2:
+#     prime = False
+
+# limit = isqrt(num)
+# for den in range(2,limit+1):
+#     if num % den == 0:
+#         prime = False
+#         break
+# else:
+#     print("prime number")
+
+# if prime==False:
+#     print("composite number")
