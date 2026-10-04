@@ -1,0 +1,117 @@
+ds = {
+    1: "Akash",
+    2: "Yash",
+    3: "Vijay"
+}
+
+# DEEP COPY
+ds1 = ds.copy()
+ds1[1] = "Krishna"
+print(ds)
+
+# ds.setdefault(2,"Vasanth")
+# print(ds)
+
+# ds1 = ds.fromkeys(ds.keys(), [2,4,6])
+# print(ds1)
+
+# ds1[2][0] = 14
+# print(ds1)
+
+# ds1 = ds.fromkeys(ds.keys(), "Akash")
+# print(ds1)
+
+# print(ds)
+
+# ans = ds.get(2, "Not found")
+# print(ans)
+# ans = ds.get(5, "Not found")
+# print(ans)
+
+# if 2 in ds:
+#     print(ds[2])
+
+# del ds[4]
+# x = ds.pop(4,-1)
+# print(x)
+
+# x = ds.keys()
+# y = ds.values()
+# z = ds.items()
+
+# print(x)
+# print(y)
+# print(z)
+
+# for x,y in z:
+#     print(f"{x} and {y}")
+
+# for key in x:
+#     print(f"{key} and {ds[key]}")
+
+# for p in ds:
+#     print(f"{p} and {ds[p]}")
+
+# a = {1,2,3,4}
+# b = {3,4,5,6}
+
+# x = a.pop()
+# print(x)
+
+# c = a | b
+# print(c)
+
+# c = a & b
+# print(c)
+
+# c = a - b
+# print(c)
+
+# c = a ^ b
+# print(c)
+
+# a = {1,2,3,4}
+# b = {1,2,3,4}
+
+# print(a.issubset(b))
+# print(a.issuperset(b))
+
+# find kth fibonacci number
+
+# n = int(input())
+# a,b = 0,1
+
+# ans = -1
+
+# if n == 1:
+#     ans = a
+# elif n == 2:
+#     ans = b
+# else:
+#     for idx in range(3,n+1):
+#         c = a + b
+#         a,b = b,c
+#     ans = c
+# print(ans)
+
+# print first N fibonacci numbers
+
+# n = int(input())
+# a,b = 0,1
+
+# ans = []
+
+# if n == 1:
+#     ans.append(a)
+# elif n == 2:
+#     ans.append(a)
+#     ans.append(b)
+# else:
+#     ans.append(a)
+#     ans.append(b)
+#     for idx in range(3,n+1):
+#         c = a + b
+#         ans.append(c)
+#         a,b = b,c
+
+# print(ans)
