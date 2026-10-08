@@ -1,0 +1,33 @@
+import re
+
+# s = "abc azc axc ayc abc"
+# ans = re.findall(r"abc|ayc", s)
+# print(ans)
+
+# s = "abc azc axc ayc"
+# ans = re.findall(r"a.c", s)
+# print(ans)
+
+# s = "akash is a good boy"
+# ans = re.findall(r"boy$", s)
+# print(ans)
+
+# s = "aaakash"
+# ans = re.findall(r"a{1,2}", s)
+# print(ans)
+
+# s = "xeROx is a gOOd invention"
+# ans = re.findall(r"[A-Z]", s)
+# print(ans)
+
+# s = "xerox is a good invention"
+# ans = re.findall(r"[^aeiou]", s)
+# print(ans)
+
+# s = "xerox is a good invention"
+# ans = re.findall(r"[aeiou]", s)
+# print(ans)
+
+# s = "__akash456up!@#$%^ati"
+# ans = re.findall(r"\w", s)
+# print(ans)
