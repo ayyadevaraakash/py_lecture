@@ -1,0 +1,37 @@
+import re
+
+# s = "contact akash@gmail.com or yashashree@yahoo.com"
+# ans = re.findall(r"\b[a-z]+@[a-z]+\.com\b", s)
+# print(ans)
+
+# s = "everest  garden  kurla  vidyavihar"
+# ans = re.sub(r"\s+", " ", s)
+# print(ans)
+
+# s = "12 256 1881 34 981 1235 78346"
+# ans = re.findall(r"\b\d{3}\b", s)
+# print(ans)
+
+# s = "playing is living and dancing"
+# ans = re.findall(r"[a-z]+ing\b", s)
+# print(ans)
+
+# s = "andaman is axyton and axizysn but not ann"
+# ans = re.findall(r"\ba[a-z]+n\b", s)
+# print(ans)
+
+# s = "akash is visiting mysuru andaman nicobar"
+# ans = re.findall(r"\ba[a-z]+", s)
+# print(ans)
+
+# s = "akash 123 MANOJ"
+# ans = re.findall(r"[a-zA-Z]+", s)
+# print(ans)
+
+# s = "abc123 xyz456 bc7"
+# ans = re.findall(r"[0-9]+", s)
+# print(ans)
+
+# s = "abc123 xyz456 bc7"
+# ans = re.findall(r"\d+", s)
+# print(ans)
