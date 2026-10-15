@@ -1,0 +1,40 @@
+# def find_lcm(a, b):
+#     for num in range(max(a,b),a*b+1):
+#         if num%a==0 and num%b==0:
+#             return num
+#     return a*b
+
+# x, y = map(int, input().split())
+# ans = find_lcm(x, y)
+# print(f"lcm of {x} and {y} is {ans}")
+
+# def find_gcd(a, b):
+#     for den in range(min(a,b),0,-1):
+#         if a%den==0 and b%den==0:
+#             return den
+#     return 1
+
+# x, y = map(int,input().split())
+# ans = find_gcd(x, y)
+# print(f"gcd of {x} and {y} is {ans}")
+
+# from math import isqrt
+
+# def is_prime(n):
+#     if n < 2:
+#         return False
+    
+#     x = isqrt(n)
+#     for den in range(2, x+1):
+#         if n % den == 0:
+#             return False
+    
+#     return True
+
+# a = int(input())
+# ans = is_prime(a)
+
+# if ans == True:
+#     print("Prime Number")
+# else:
+#     print("Composite Number")
