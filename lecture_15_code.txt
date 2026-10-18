@@ -1,0 +1,71 @@
+def find_smallest_divisor(n):
+    if n%2==0:
+        return 2
+    den = 3
+    while den*den <= n:
+        if n%den==0:
+            return den
+        den += 2
+    return n
+
+n = int(input())
+ans = find_smallest_divisor(n)
+print(ans)
+
+# n = int(input())
+# x = n//2
+# y = 0
+
+# while True:
+#     y = 0.5 * (x + (n/x))
+#     if x == y:
+#         break
+#     x = y
+
+# print(y)
+
+# import math
+
+# n = 12785
+# print(math.sqrt(n))
+
+# ans = 0
+# user = int(input())
+# s = str(user)
+# n = len(s)
+
+# p = 4
+
+# if n%2!=0:
+#     s = "0" + s
+
+# group = []
+# i = 0
+# while i<n:
+#     group.append(int(s[i:i+2]))
+#     i+=2
+
+# for i in range(p):
+#     group.append(0)
+
+# # print(group)
+
+# ans = 0
+# rem = 0
+
+# for x in group:
+#     rem = rem * 100 + x
+#     a = 0
+#     for k in range(0,10):
+#         div = (ans * 20 + k) * k
+#         if div <= rem:
+#             a = k
+#     div = ans * 20 + a
+#     b = div * a
+#     rem = rem - b
+#     ans = ans * 10 + a
+
+# ans = str(ans)
+# n = len(ans)
+# ans = ans[0:n-p] + "." + ans[n-p:n]
+# print(ans)
