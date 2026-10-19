@@ -1,0 +1,49 @@
+import math
+
+# ans = math.pow(2,5)
+# print(ans)
+
+# import random
+
+# print(random.uniform(12,40))
+
+# print(random.random()*100)
+
+# ds = ["akash", "yashashree", "manoj", "govinda"]
+# random.shuffle(ds)
+# print(ds)
+
+# ds = ["akash", "yashashree", "manoj", "govinda"]
+# print(random.choices(ds,k=5))
+
+# ds = ["akash", "yashashree", "manoj", "govinda"]
+
+# print(random.choice(ds))
+
+# print(random.randrange(4,20))
+
+# print(random.getrandbits(4))
+
+# random.seed(4)
+# x = random.getstate()
+
+# print(random.random())
+# print(random.random())
+
+# random.seed(2)
+# random.setstate(x)
+
+# print(random.random())
+# print(random.random())
+
+# random.seed(3)
+
+# print(random.random())
+# print(random.random())
+# print(random.random())
+
+# random.seed(3)
+
+# print(random.random())
+# print(random.random())
+# print(random.random())
